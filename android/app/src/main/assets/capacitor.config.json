@@ -1,0 +1,8 @@
+{
+	"appId": "com.abrarjamil.tasklist",
+	"appName": "কাজের তালিকা ও রিমাইন্ডার",
+	"webDir": "dist",
+	"server": {
+		"androidScheme": "https"
+	}
+}

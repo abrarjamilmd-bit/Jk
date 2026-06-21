@@ -1,0 +1,104 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportHeight="108"
+    android:viewportWidth="108">
+
+    <!-- Subtle backdrop glow / soft shadow of the document card -->
+    <path
+        android:pathData="M31,25 h36 a6,6 0 0 1 6,6 v40 a6,6 0 0 1 -6,6 h-36 a6,6 0 0 1 -6,-6 v-40 a6,6 0 0 1 6,-6 z"
+        android:fillColor="#25000000" />
+
+    <!-- Main Floating Document Card Base -->
+    <path
+        android:pathData="M30,23 h36 a6,6 0 0 1 6,6 v40 a6,6 0 0 1 -6,6 h-36 a6,6 0 0 1 -6,-6 v-40 a6,6 0 0 1 6,-6 z"
+        android:strokeColor="#1E293B"
+        android:strokeWidth="1.5">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="23"
+                android:endX="72"
+                android:endY="75"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1E293B"/> <!-- Tailwind slate-800 -->
+                <item android:offset="1.0" android:color="#0F172A"/> <!-- Tailwind slate-900 -->
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Checklist Mock Target Lines -->
+    <path
+        android:pathData="M38,36 h18"
+        android:strokeColor="#475569"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M38,46 h12"
+        android:strokeColor="#475569"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M38,56 h22"
+        android:strokeColor="#334155"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+
+    <!-- ================= REMINDER BELL SECTION (Top Right) ================= -->
+    <!-- Drop shadow for the notification bell -->
+    <path
+        android:pathData="M73,19 a4,4 0 0 1 4,4 v1 h2 a3,3 0 0 1 3,3 v5 a5,5 0 0 1 -5,5 h-10 a5,5 0 0 1 -5,-5 v-5 a3,3 0 0 1 3,-3 h2 v-1 a4,4 0 0 1 4,-4 z"
+        android:fillColor="#30000000" />
+
+    <!-- Main Bell Graphic -->
+    <path
+        android:pathData="M72,18 a4,4 0 0 1 4,4 v1 h2 a3,3 0 0 1 3,3 v5 a5,5 0 0 1 -5,5 h-10 a5,5 0 0 1 -5,-5 v-5 a3,3 0 0 1 3,-3 h2 v-1 a4,4 0 0 1 4,-4 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="62"
+                android:startY="18"
+                android:endX="82"
+                android:endY="33"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FBBF24"/> <!-- yellow-450 -->
+                <item android:offset="1.0" android:color="#D97706"/> <!-- amber-600 -->
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Bell Little Clapper / Bottom ring -->
+    <path
+        android:pathData="M69,32 h6 a3,3 0 0 1 -6,0 z"
+        android:fillColor="#B45309" />
+
+    <!-- ================= EMERALD CHECKMARK SECTION (Bottom Right) ================= -->
+    <!-- Soft shadow behind Emerald checkmark circle -->
+    <path
+        android:pathData="M69,67 m-16,0 a16,16 0 1,1 32,0 a16,16 0 1,1 -32,0"
+        android:fillColor="#45000000" />
+
+    <!-- Glowing Circle Background -->
+    <path
+        android:pathData="M68,65 m-16,0 a16,16 0 1,1 32,0 a16,16 0 1,1 -32,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="52"
+                android:startY="49"
+                android:endX="84"
+                android:endY="81"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#34D399"/> <!-- Mint/Emerald-400 -->
+                <item android:offset="1.0" android:color="#059669"/> <!-- Emerald-600 -->
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- White Checkmark path inside the circle -->
+    <path
+        android:pathData="M59,65 l6,6 l10,-11"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+        
+</vector>
